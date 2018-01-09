@@ -57,5 +57,6 @@ googleclouddeployment:
   - configmap.staging.yaml
   - nodeport-service.yaml
   - deployment.template.yaml
+
   see: [kubernetes-shared-config](https://github.com/strawhouselabs/kubernetes-shared-config) repo for examples.
 15. deploy
