@@ -9,7 +9,7 @@
 5. Copy `codeship-services.yml` and `codeship-steps.yml` from another repo (dashboard2 has a good one) and paste them into the top level of your project.
 
 Or manually add the services or steps below:
-- `codeship-services.yml`
+to `codeship-services.yml`
 ```
 gcr_dockercfg:
   image: codeship/gcr-dockercfg-generator
@@ -28,7 +28,7 @@ googleclouddeployment:
   - ./docker/kubernetes:/deploy/kubernetes
 ```
 
-- `codeship-steps.yml`
+to `codeship-steps.yml`
 ```
 - name: push-image
   service: app
