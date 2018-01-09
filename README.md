@@ -8,7 +8,7 @@
 4. Log in to the strawhousedev github account, and add that key as a key for the strawhousedev user.
 5. Copy `codeship-services.yml` and `codeship-steps.yml` from another repo (dashboard2 has a good one) and paste them into the top level of your project.
 
-Or manually add the services or steps below:
+...Or manually add the services or steps below:
 
 to `codeship-services.yml`:
 ```
