@@ -29,7 +29,7 @@ googleclouddeployment:
   - ./docker/kubernetes:/deploy/kubernetes
 ```
 ```
-# codeship-steps.yml 
+# codeship-steps.yml
 
 - name: push-image
   service: app
