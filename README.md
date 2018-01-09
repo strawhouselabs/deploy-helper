@@ -10,7 +10,7 @@
 
 Or manually add the services or steps below:
 - `codeship-services.yml`
-````
+```
 gcr_dockercfg:
   image: codeship/gcr-dockercfg-generator
   add_docker: true
