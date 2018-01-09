@@ -52,11 +52,12 @@ googleclouddeployment:
 11. `cd docker && jet encrypt gcp.env gcp.env.encrypted --key-path=key.aes`
 12. delete the gcp.env
 13. create a folder called `kubernetes` in the docker folder
-14. into your new kubernetes folder create the following
+14. into your new kubernetes folder create the following:
   - configmap.production.yaml
   - configmap.staging.yaml
   - nodeport-service.yaml
   - deployment.template.yaml
 
   see: [kubernetes-shared-config](https://github.com/strawhouselabs/kubernetes-shared-config) repo for examples.
+
 15. deploy
