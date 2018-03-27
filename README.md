@@ -34,7 +34,7 @@ to `codeship-steps.yml`:
 - name: push-image
   service: app
   type: push
-  image_name: "gcr.io/strawhouse-internals/infrabot-ecomm"
+  image_name: "gcr.io/directory/image-file"
   image_tag: "{{.Branch}}.{{.CommitDescription}}"
   registry: https://gcr.io
   dockercfg_service: gcr_dockercfg
